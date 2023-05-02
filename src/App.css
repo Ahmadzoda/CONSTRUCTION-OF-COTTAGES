@@ -1,38 +1,614 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.navbar-text-p{
+    color: gray;
+    font-weight: 500;
+}
+.navbar-two-text{
+    color: gray;
+}
+.navbar-third-text p{
+    color: #212864;
+    font-size: 20px;
+}
+.navbar-fourth-button button{
+    color: #212864;
+    width: 160px;
+    height: 37px;
+    border-radius: 25px;
+    border: #212864 1px solid;
+}
+.pages{
+    background-color: #15193D;
+    width: 100%;
+    height: 80px;
+}
+.page ul{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.yellow-li{
+    color: #FFC239;
+}
+.select-li {
+    color: #15193D;
+}
+.light-pages{
+    background-color: #8C93D1;
+    width: 100%;
+    height: 70px;
+}
+.light-pages ul{
+    color: white;
+    font-size: 20px;
+}
+.content{
+    background-image: url("./Pictures/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.content-text h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    width: 850px;
+    letter-spacing: 1px;
+}
+.content-title p{
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 600px;
+}
+.middle-right p{
+    color: #FFFFFF;
+}
+.middle-left img{
+    width: 70%;
+}
+.some-text h1{
+    font-size: 40px;
+}
+.color button{
+    background-color: #FFC239;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    color: #15193D;
+    font-size: 16px;
+    font-weight: 500;
+}
+.color1 button{
+    background-color: rgb(164, 164, 164);
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    color: #15193D;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Firstcard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.firstcard{
+    display: flex;
+    justify-content: center;
+}
+.first-card{
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 420px;
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.first-img{
+    display: flex;
+    justify-content: center;
+}
+.first-img img{
+    width: 100%;
+}
+.first-text{
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+}
+.first-text h1{
+  color: black;
+  font-size: 25px;
+  width: 200px;
+}
+.first-left{
+    display: flex;
+    justify-content: start;
+}
+.first-left p {
+ color: gray;
+ font-size: 18px;
+}
+.first-right p{
+    color: gray;
+    font: 18px;
+}
+.first-texts{
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+ padding-top: 10px;
+}
+.first-money{
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+}
+.first-money h1{
+    color: black;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.blue-button button{
+    background-color: #212864;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.house{
+    background-color: #F1F1F6;
+    height: auto;
+    width: 100%;
+}
+.home-text{
+    color: black;
+}
+.home-text h1{
+    font-weight: 500;
+    font-size: 35px;
+    width: 500px;
+    letter-spacing: 1px;
+}
+.home-button button{
+    width: 100px;
+    height: 100px;
+    border: #FFC239 1px solid;
+    border-radius: 50%;
+}
+.right-php{
+    font-weight: 700;
+}
+.Second{
+    background-color: rgb(179, 177, 177);
+    width: 100%;
+    height: auto;
+}
+.seconds{
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondcard{
+    display: flex;
+    justify-content: center;
+}
+.second-card{
+    background-color: white;
+    width: 560px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.second-text{
+    display: flex;
+    justify-content: start;
+}
+.second-text h1{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.second-title{
+    display: flex;
+    justify-content: start;
+}
+.second-title p{
+    color: gray;
+    width: 350px;
+}
+.second-image{
+    display: flex;
+    justify-content: center;
+}
+.Secondcard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Gray{
+    background-color: #d8d8dae5;
+    width: 100%;
+    height: 300px;
+}
+.gray-text h1{
+    color: black;
+    font-weight: 500;
+    font-size: 35px;
+    width: 700px;
+}
+.gray-title p{
+    color: gray;
+    letter-spacing: 1px;
+    width: 700px;
+    padding-top: 10px;
+}
+.gray-right button{
+    background-color: #212864;
+    color: white;
+    width: 320px;
+    height: 40px;
+    border-radius: 25px;
+}
+.home-title p{
+    color: gray;
+    width: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.maps{
+    background-image: url(./Pictures/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.contact{
+    background-color: white;
+    width: 400px;
+    height: 410px;
+}
+.contact-text h1{
+    font-size: 23px;
+    font-weight: 500;
+}
+.contact-title p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.but-soc button{
+    background-color: #FFC239;
+    width: 160px;
+    height: 30px;
+    border-radius: 25px;
+}
+.white{
+    background-color: rgb(227, 224, 224);
+    width: 1300px;
+    height: 1px;
+}
+.footter-text h1{
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-title p{
+    color: white;
+    font-size: 18px;
+}
+.footer-button button{
+    width: 240px;
+    height: 47px;
+    border: #FFC239 1px solid;
+    border-radius: 25px;
+    color: #FFC239;
+}
+.last-left p{
+    color: gray;
+}
+.footer-one{
+    text-align: start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (min-width:480px) and (max-width:600px){
+    .light-pages{
+        height: 270px;
+    }
+    .second-card{
+        width: 400px;
+        height: 160px;
+    }
+    .seconds{
+        display: inline;
+    }
+    .light-pages ul{
+        display: inline;
+    }
+    .light-pages ul li{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content-text{
+        padding-top: 30px;
+    }
+    .button-color{
+        display: inline;
+    }
+    .color1{
+        padding-top: 10px;
+    }
+    .gray{
+        display: inline;
+    }
+    .Gray{
+        height: auto;
+    }
+    .gray-text{
+        padding-left: 50px;
+    }
+    .contacts{
+        display: flex;
+        justify-content: center;
+    }
+    .gray-title{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        padding-left: 50px;
+    }
+    .gray-right {
+        padding-bottom: 30px;
+    }
+    .home{
+        display: inline;
+    }
+    .home-left{
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        display: inline;
+    }
+    .mine-one{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .navbar{
+        display: inline;
+    }
+    .navbar-one{
+       padding-top: 40px;
+    }
+    .navbar-two{
+        padding-top: 40px;
+    }
+    .navbar-third{
+        padding-top: 40px;
+    }
+    .navbar-fourth{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .page ul{
+        display: inline;
+    }
+    .pages{
+        height: 420px;
+    }
+    .page ul li{
+        padding-top: 20px;
+    }
+    .home-button{
+    display: flex;
+    justify-content: center;
+    }
+    .gray-text{
+        padding-top: 20px;
+    }
+    .last{
+        display: inline;
+    }
+    .last-left{
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:800px){
+    .light-pages{
+        height: 270px;
+    }
+    .light-pages ul{
+        display: inline;
+    }
+    .light-pages ul li{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content-text{
+        padding-top: 30px;
+    }
+    .button-color{
+        display: inline;
+    }
+    .color1{
+        padding-top: 10px;
+    }
+    .gray{
+        display: inline;
+    }
+    .Gray{
+        height: auto;
+    }
+    .gray-text{
+        padding-left: 50px;
+    }
+    .contacts{
+        display: flex;
+        justify-content: center;
+    }
+    .gray-title{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        padding-left: 50px;
+    }
+    .gray-right {
+        padding-bottom: 30px;
+    }
+    .home{
+        display: inline;
+    }
+    .home-left{
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        display: inline;
+    }
+    .mine-one{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .navbar{
+        display: inline;
+    }
+    .navbar-one{
+       padding-top: 40px;
+    }
+    .navbar-two{
+        padding-top: 40px;
+    }
+    .navbar-third{
+        padding-top: 40px;
+    }
+    .navbar-fourth{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .page ul{
+        display: inline;
+    }
+    .pages{
+        height: 420px;
+    }
+    .page ul li{
+        padding-top: 20px;
+    }
+    .home-button{
+    display: flex;
+    justify-content: center;
+    }
+    .gray-text{
+        padding-top: 20px;
+    }
+    .last{
+        display: inline;
+    }
+    .last-left{
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1000px){
+    .light-pages{
+        height: 100px;
+    }
+    .button-color{
+        display: inline;
+    }
+    .color1{
+        padding-top: 10px;
+    }
+    .gray{
+        display: inline;
+    }
+    .home{
+        display: inline;
+    }
+    .home-left{
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        display: inline;
+    }
+    .mine-one{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .navbar{
+        display: inline;
+    }
+    .navbar-one{
+       padding-top: 40px;
+    }
+    .navbar-two{
+        padding-top: 40px;
+    }
+    .navbar-third{
+        padding-top: 40px;
+    }
+    .navbar-fourth{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .page ul{
+        display: inline;
+    }
+    .pages{
+        height: 420px;
+    }
+    .page ul li{
+        padding-top: 20px;
+    }
+    .home-button{
+    display: flex;
+    justify-content: center;
+    }
+    .gray-text{
+        padding-top: 20px;
+    }
+    .last{
+        display: inline;
+    }
+    .last-left{
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1200px){
+    .light-pages{
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1400px){
+
 }
